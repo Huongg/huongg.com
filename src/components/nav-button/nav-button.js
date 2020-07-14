@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./nav-button.css";
+import "./nav-button.scss";
 
 export const NavButton = ({ children }) => {
   return (
