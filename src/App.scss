@@ -14,14 +14,14 @@
 .navigation {
   display: flex;
   flex-direction: row;
+
   align-items: flex-end;
   justify-content: center;
 }
 
 .app-logo {
   text-align: center;
-
-  --weight: 10;
+  
   font-family: "Marvin Visions Variable";
   font-size: 6vw;
   font-weight: 150;
