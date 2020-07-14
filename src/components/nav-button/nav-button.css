@@ -11,7 +11,8 @@
   border-radius: 0;
 
   background: transparent;
-  color: #0255026b;
+  /* color: #0255026b; */
+  color: red;
 
   text-transform: uppercase;
   font-weight: bold;
@@ -40,6 +41,7 @@
   right: var(--vertical-offset, 0);
   bottom: var(--horizontal-offset, 0);
   left: var(--vertical-offset, 0);
+
   transition: transform 0.8s ease;
   will-change: transform;
 }
