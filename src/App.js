@@ -1,10 +1,12 @@
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import "./App.scss";
 
-import { NavButton } from "./components/nav-button/nav-button";
+import { Home } from "./areas/home/home";
+import { AboutMe } from "./areas/about-me/about-me";
+
 import { Header } from "./components/header/header";
 
 function App() {
@@ -12,7 +14,15 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <div className="main-page-image"></div>
+
+        <Switch>
+          <Route path="/home">
+            <Home />
+          </Route>
+          <Route path="/about-me">
+            <AboutMe />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );
