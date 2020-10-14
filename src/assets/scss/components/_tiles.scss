@@ -32,12 +32,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     cursor: default;
-    height: 40vh;
-    max-height: 40em;
-    min-height: 23em;
+    height: 50vh;
+    max-height: 50em;
+    min-height: 50em;
     overflow: hidden;
     position: relative;
-    width: 40%;
+    width: 50%;
 
     .image {
       display: none;
@@ -105,44 +105,39 @@
       opacity: 0;
     }
 
-    &:nth-child(4n - 1),
-    &:nth-child(4n - 2) {
-      width: 60%;
-    }
-
     &:nth-child(6n - 5) {
       &:before {
-        background-color: _palette(accent1);
+        background-color: _palette(bg-image);
       }
     }
 
     &:nth-child(6n - 4) {
       &:before {
-        background-color: _palette(accent2);
+        background-color: _palette(bg-image);
       }
     }
 
     &:nth-child(6n - 3) {
       &:before {
-        background-color: _palette(accent3);
+        background-color: _palette(bg-image);
       }
     }
 
     &:nth-child(6n - 2) {
       &:before {
-        background-color: _palette(accent4);
+        background-color: _palette(bg-image);
       }
     }
 
     &:nth-child(6n - 1) {
       &:before {
-        background-color: _palette(accent5);
+        background-color: _palette(bg-image);
       }
     }
 
     &:nth-child(6n) {
       &:before {
-        background-color: _palette(accent6);
+        background-color: _palette(bg-image);
       }
     }
   }
