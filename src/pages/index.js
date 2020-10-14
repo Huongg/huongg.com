@@ -32,7 +32,7 @@ class HomeIndex extends React.Component {
                 <h3>Aliquam</h3>
                 <p>Ipsum dolor sit amet</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/jasmine" className="link primary"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
